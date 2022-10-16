@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fecha Y Hora</title>
-    <!- -
+<head>  <!--
 Descripción: Código para Saber La Hora Y La Fecha con PHP Y JavaScript. PHP Fecha Y JavaScript Hora
 Para Desplegar la Hora Mantener Presionar El Mouse Sobre La fecha
 Autor González César
 Fecha 27/09/2022
-- - >
+-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecha Y Hora</title>
+  
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,900|Open+Sans+Condensed:300,300italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -456,7 +456,7 @@ body:hover .designer {
 
 </body>
 <?php
-echo date('d-m-y');?>  
+echo date('d-m-y');?>  <!--Declaración DE Fecha-->
 
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 <script>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Descripción: Cambio De Color A través De Botones (Iconos) Con PHP 
+      Creado Por: César González
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            font-family: Gabriola;
+        }
+        
+body{
+    background: url(img/fondo.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+        .table{
+			color: #08102A;
+			font-size: 16px;
+			 padding: 15px;
+			 width: 500px;
+			 font-family: Gabriola;
+			 
+			}
+        button{
+            color: #f3d1d1 !important;
+  font-size: 20px;
+  font-weight: 500;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 0.5em 0.5em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+        }
+      
+button:hover{
+    background: #318aac;
+  color: #fff !important;
+}
+
+    </style>
+</head>
+<body>
+ <div class="contenedo" style="position: absolute ; top: 30%; left: 35%; ">   
+    <center>
+        <div class="table">
+        <fieldset style="border-left:10px solid #00BFFF; border-top-left-radius:8px; border-bottom-left-radius:8px ; background: #E0FFFF;">
+            <legend style="color: #9F5614; font-family: Snap ITC;"> <i class="fa-solid fa-calendar" title="Inicio"></i> Cambio </legend>
+        
+        
+<h1 id="encabezado" onclick="encabezado1()" >Primer Prueba del Manejo De PHP</h1></fieldset></div>
+<bR>
+<BUTTon id="boton1" onclick="cambiaaIngresar()"><i class="fa fa-search"></i></BUTTon>
+<BUTTon id="boton2" onclick="cambiaaRegistrar()"><i class="fab fa-youtube"></i></BUTTon>
+<BUTTon id="boton3" onmouseout="cambiaaCuenta()"><i class="fas fa-home"></i></BUTTon>
+
+<script>
+    function encabezado1(){
+        document.getElementById("encabezado").style.color = "#05853B";
+
+    }
+    function cambiaaIngresar(){
+        alert("Has seleccionado la opción Ingresar");
+        
+        document.getElementById("boton1").style.backgroundColor = "#330703"; 
+        document.getElementById("encabezado").style.color = "Blue";
+      
+
+
+    }
+    function cambiaaRegistrar(){
+        alert("Has seleccionado la opción Registrar");
+
+        document.getElementById("boton2").style.color = "Green";
+        document.getElementById("boton2").style.backgroundColor = "#033309"; 
+        document.getElementById("encabezado").style.color = "#854105";
+
+
+        
+    }function cambiaaCuenta(){
+        alert("Has seleccionado la opción Cuenta");
+        document.getElementById("boton3").style.color = "White";
+        document.getElementById("boton3").style.backgroundColor = "#EC7709"; 
+        document.getElementById("encabezado").style.color = "#850505";
+
+
+        
+    }
+</script>
+</body>
+</html>

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Descripción: Interfaz De Un Producto (Sin Ninguna Función Por AHORA)
+      Creado Por: César González
+    -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pRODUCTO</title>
     <style>
+     
 
 
 .visuallyhidden {
@@ -232,10 +236,6 @@ overflow-y: auto;
     -ms-flex: 3;
         flex: 3;
     padding: 40px 30px; }
-
-
-
-
 
 
     </style>
